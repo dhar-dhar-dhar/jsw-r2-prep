@@ -118,7 +118,7 @@ S.append(slide("Fintech P&Ls (2 of 2): insurance, wealth, fraud and identity",
  "Inputs I1 to I16, W1 to W20, F1 to F13. Print pack Exhibits 4 and 5.", 5))
 
 # 6 AI map and the test
-S.append(slide("AI: the layers, the markets, and the one test that survives 'is that not just efficiency again'",
+S.append(slide("AI: the layers, the markets, and the one test that survives the efficiency counter",
  "Compute and models are not fundable at this cheque; tooling and apps are, selectively. Beyond efficiency has one meaning that holds.",
  f'''<div class="cols"><div class="l2">
 {table(["Layer or market", "Revenue unit", "Judge on", "Fundable at Rs 10 to 20 cr?"], [
