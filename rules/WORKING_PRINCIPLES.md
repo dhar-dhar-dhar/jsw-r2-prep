@@ -1,6 +1,6 @@
 # Working principles for investment research (merged, 3 Oct 2026)
 
-Merged from the Titan assignment (this repo) and two other sessions' lists. Titan-specific mechanics are cut; what
+Merged from the Titan assignment (a separate repo, dhar-dhar-dhar/titan) and two other sessions' lists. Titan-specific mechanics are cut; what
 remains transfers to any research, thesis or portfolio job. Read before starting a new assignment.
 
 ## 1. What the work is for

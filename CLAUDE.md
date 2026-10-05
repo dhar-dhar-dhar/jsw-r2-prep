@@ -17,9 +17,18 @@ Same for AI. And why. Docs/ppt/pdf whatever u r comfortable with as anchor to th
   three efficiency answers. Every thesis must name what changes in a business, not what gets cheaper.
 - His lane is fintech plus enterprise AI, not consumer. JSW backs applied, vertical AI with a
   business outcome; cheques Rs 10-20cr, pre-Series A to Series A+, 14-16 names a fund.
-- Deliverable: short PDF (target 6-10 pages), plus a one-page talk track. Formal voice, Kushal's
-  own, no slop. Every claim sourced and dated; facts in the brief marked UNCERTAIN stay that way.
+- Deliverable: format is flexible. Current set (v7): a reference deck (PDF), a print pack of exhibits (PDF), a
+  workbook with every figure as a sourced input and every derived number as a formula, and a private talk
+  track. Formal voice, Kushal's own, no slop. Every claim sourced and dated; facts in the brief marked
+  UNCERTAIN stay that way.
+
+## Repo layout
+- inputs/: the brief and any uploaded data. research/: fact base, reviews, worked examples, talk track.
+- build/: spec_v7.py (every input with source, URL, date, claim type, confidence, status, range),
+  build_workbook.py (workbook from the spec), evalwb.py (computes every formula in Python and dumps
+  values_v7.json), render_pack.py and deck_v7.py (HTML to PDF via headless Chromium). Rebuild order:
+  evalwb, build_workbook, render_pack, deck_v7.
+- outputs/: JSW_R2_workbook_v7.xlsx, JSW_R2_print_pack_v7.pdf, JSW_R2_reference_deck_v7.pdf.
 
 ## Rules
-- Never put private material (the R1 transcript, Vikas's messages) into web searches.
 - Commit and push after each step. Plan mode first: agree the theses before any drafting.
